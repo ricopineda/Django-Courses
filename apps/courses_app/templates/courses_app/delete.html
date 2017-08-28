@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Delete Page </title>
+</head>
+<body>
+	<h1> Are you sure you want to delete? </h1>
+	
+	{{ course.name}}
+	{{ course.desc }}
+	
+	<a href="/confirm_delete/{{course.id}}"> <button> Yes </button></a>
+	<a href="/"> <button> No </button></a>
+
+</body>
+</html>
